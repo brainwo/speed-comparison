@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-"""This script analyzes the JSON results in a given directory."""
+"""This script analyses the JSON results in a given directory."""
 
 import os
 import re
@@ -147,7 +147,7 @@ def main():
         rounds = reader.read().strip()
     plot(df, rounds, png)
 
-    print(f"Successfult. Files generated:\n  {csv}\n  {png}")
+    print(f"Successful. Files generated:\n  {csv}\n  {png}")
 
 
 main()
